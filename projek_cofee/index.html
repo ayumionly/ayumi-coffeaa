@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe Ayumi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#beranda">Home</a></li>
+                <li><a href="#tentang">About</a></li>
+                <li><a href="#produk">Product</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#kontak">Contact</a></li>
+
+            </ul>
+        </nav>
+        <div class="beranda" id="beranda">
+        <h1>Ayumi Coffea</h1>
+        <p>"Satu Cangkir, Sejuta Cerita. Temukan ruang nyamanmu untuk jeda dan berbagi hari ini."</p>
+        </div>
+
+        <div>
+            <img src="images/logo.png" alt="logo" class="logo">
+        </div>
+
+        <a href="#produk" class="btn-primary">View Product</a>
+    </header>
+
+    <section class="tentang" id="tentang">
+
+        <div>
+            <h1>Tentang Kami</h1>
+
+            <div class="teks-tentang">
+                "Kami percaya kedai kopi bukan sekadar tempat minum, melainkan ruang bertemu.
+                 Setiap biji kopi kami sangrai dengan teliti agar setiap tegukan 
+                 menghadirkan kehangatan dan keakraban."
+            </div>
+
+            <img src="images/tentang.jpg" alt="tentang" class="foto">
+        </div>
+    </section>
+
+    <section class="produk" id="produk">
+        <div>
+            <h1>Lihat Produk Kami</h1>
+
+            <div class="card-produk">
+                <img src="images/foto1.jpg">
+                
+                <h3>Coffee Cappucino</h3>
+                <h5>Rp.20.000</h5>
+            </div>
+            <div class="card-produk">
+                <img src="images/foto2.jpg">
+                
+                <h3>Coffea arabica</h3>
+                <h5>Rp.35.000</h5>
+            </div>
+            <div class="card-produk">
+                <img src="images/foto3.jpg">
+                
+                <h3>Coffea Espresso</h3>
+                <h5>Rp.40.000</h5>
+            </div>
+            <div class="card-produk">
+                <img src="images/foto4.jpg">
+                
+                <h3>Coffea Americano</h3>
+                <h5>Rp.45.000</h5>
+            </div>
+            <div class="card-produk">
+                <img src="images/foto5.jpg">
+                
+                <h3>Coffea Flat white</h3>
+                <h5>Rp.25.000</h5>
+            </div>
+            <div class="card-produk">
+                <img src="images/foto6.jpg">
+                
+                <h3>Coffea Macchiato</h3>
+                <h5>Rp.50.000</h5>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery" id="gallery">
+        <div>
+            <h1>Gallery Coffea</h1>
+            <div class="card-produk">
+                <img src="images/g1.jpg">
+
+                <img src="images/g2.jpg">
+
+                <img src="images/g3.jpg">
+            </div>
+        </div>
+    </section>
+
+    <section class="kontak-container" id="kontak">
+
+        <div class="kontak-info">
+            <h1 class="judul">Hubungi Saya</h1>
+            <p class="deskripsi"><span class="warna-coklat">Ada pertanyaan?</span> Silahkan kirimkan pesan anda.</p>
+        </div>
+
+        <div class="info-details">
+
+            <div class="info-map">
+                <p><span class="warna-coklat">Villa Pamulang, Tangerang Selatan, Jawa Barat.</span></p>
+                <iframe src="https://www.google.com/maps/embed?pb=
+                    !4v1793589385621!6m8!1m7!1sAzMypI8EZ7jsgUuWzWk9HQ!2m2!1d-6.
+                    355687929782563!2d106.7191524551783!3f263.4358315760084!4f-4.
+                    396600382978903!5f0.7820865974627469"></iframe>
+            </div>
+
+            <div class="info-item">
+                <span class="timeline-icon">✉️</span>
+                <p class="teks-kontak"><span class="warna-kuning">halo@ayuminh.com</span></p>
+            </div>
+
+            <div class="info-item">
+                <span class="timeline-icon">📞</span>
+                <p class="teks-kontak"><span class="warna-kuning">+62 823 1091 1500</span></p>
+            </div>
+
+            <div class="info-item">
+                <span class="timeline-icon">📷</span>
+                <a href="https://instagram.com/ayuminh_" target="_blank" rel="noopener noreferrer" class="teks-kontak">
+                <span class="warna-kuning">@ayuminh_</span></a>
+
+
+            </div>
+        </div>
+    </section>
+
+    <div class="kontak-form">
+        <h2 class="judul"><span class="warna-coklat"> ༘⋆.ೃ࿔*:･</span>𝖪𝗂𝗋𝗂𝗆 𝖯𝖾𝗌𝖺𝗇<span
+                    class="warna-coklat">˚₊· ͟͟͞͞➳❥</span></h2>
+        <form action="#" method="POST">
+            <div class="form-group">
+                <label for="nama">Nama Lengkap</label>
+                <input type="text" id="nama" name="nama" placeholder="Masukkan nama Anda" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Alamat Email</label>
+                <input type="email" id="email" name="email" placeholder="nama@email.com" required>
+            </div>
+            <div class="form-group">
+                <label for="pesan">Pesan</label>
+                <textarea id="pesan" name="pesan" rows="5" placeholder="Tuliskan pesan Anda di sini..."
+                    required></textarea>
+
+                <button type="submit" class="btn-kirim">Kirim Pesan</button>
+            </div>
+        </form>
+    </div>
+
+    </div>
+
+    <footer class="footer-buttom">
+        <h2>Portofolio</h2>
+        <p>&copy; 2026 Ayumi.</p>
+    </footer>
+
+</body>
+</html>
